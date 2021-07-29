@@ -54,13 +54,13 @@ def lucas(n):
                 return nth
 
 
-def sum_series(n, first=0, second=1):
+def sum_series(n, value1=0, value2=1):
 
     if n < 0:
         return " +ve Number "
     elif n == 0:
-        return first
+        return value1
     elif n == 1:
-        return second
+        return value2
     else:
-        return(sum_series(n-1, first, second)+sum_series(n-2, first, second))
+        return(sum_series(n-1, value1, value2)+sum_series(n-2, value1, value2))
