@@ -38,12 +38,12 @@ def test_zero_for_other():
     actual=sum_series(0)
     assert expected==actual
 def test_one_for_other():
-    expected=1
+    expected=3
     actual=sum_series(1,4,3)
     assert expected==actual
 
 def test_seven_for_other():
-    expected=18
+    expected=137
     actual=sum_series(7,9,5)
     assert expected==actual
   
